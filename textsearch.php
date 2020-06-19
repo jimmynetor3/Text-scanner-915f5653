@@ -9,5 +9,3 @@ preg_match_all($pattern, $implodedInput, $matches, PREG_SET_ORDER, 0);
 foreach ($matches as $word) {
     echo($word[0] . PHP_EOL);
 }
-
-//var_dump($matches);
